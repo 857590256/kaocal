@@ -1,0 +1,75 @@
+/* top */
+#topNav{
+    width: 1308px;
+    height: 31px;
+    background: #000;
+    color: #999;
+    margin: 0 auto
+}
+#topNavIndex{
+    width: 1090px;
+    height: 30px;
+    margin: 0 109px;
+    background: #000;
+    font-size: 12px;
+    line-height: 30px;
+}
+/* 左一 */
+#topNavIndex .left{
+    float: left;
+}
+#topNavIndex .left a{
+    margin-left: 16px;
+    margin-right: 4px;
+}
+#topNavIndex .left a:hover{
+    color: #fff;
+}
+/* 左二 */
+#topNavIndex .left2{
+    float: left;
+    width: 78px;
+    height: 30px;
+    padding-left: 30px;
+    
+}
+#topNavIndex .left2 a{
+   display: inline;
+    
+    position: relative;
+}
+#topNavIndex .left2 a:hover{
+    color: #fff;
+}
+#topNavIndex .left2 .app{
+    position: absolute;
+    left: -30px;
+    top: 35px;
+    padding: 5px 5px 0;
+    border: solid 1px #ededee;
+    display: none;
+    text-align: center;
+}
+#topNavIndex .left2 :hover .app{
+    display: block;
+}
+#topNavIndex .left2 p{
+    display: block;
+    color: #ff1e32;
+    font-size:14px;
+    padding: 4px 0;
+    line-height: 16px;
+    width: 120px;
+}
+/* 右 */
+#topNavIndex .right{
+    float: right;
+    width: 602px;
+    height: 30px;
+}
+#topNavIndex .right ul{
+    float: left;
+}
+#topNavIndex .right ul li{
+    float: left;
+}

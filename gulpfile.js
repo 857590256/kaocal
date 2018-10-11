@@ -2,7 +2,6 @@
 
 // 1. http插件; (服务器插件);
 // gulp connect;
-
 const gulp = require("gulp");
 // gulp 服务器插件;
 const connect = require("gulp-connect");
@@ -20,7 +19,7 @@ var sass = require("gulp-sass-china");
 
 gulp.task('connect', function() {
     connect.server({
-       
+        port:8888,
         root:"dist/",
         livereload:true,
         // 中间件;
@@ -70,7 +69,7 @@ gulp.task("sass", () =>{
 // 编译 ? es6 => es5;
 
 gulp.task("es6",()=>{
-    return gulp.src("script/es2015/es6.js")
+    return gulp.src("es6/*.js")
     .pipe(babel({
         presets: ['@babel/env']
     }))

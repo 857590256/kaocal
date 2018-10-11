@@ -1,1 +1,42 @@
-body,html{background:#fff}blockquote,body,code,dd,div,dl,dt,fieldset,figure,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}img{display:block}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}li,ol,ul{list-style:none}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}a{text-decoration:none;color:#999;display:inline-block}*{box-sizing:border-box;font-family:"微软雅黑"}.clearfix:after{clear:both;content:'';font-size:0;display:block;visibility:hidden;height:0}
+@charset "UTF-8";
+html, body {
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  display: block; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+a {
+  text-decoration: none;
+  color: #999;
+  display: inline-block; }
+
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  font-size: 0;
+  display: block;
+  visibility: hidden;
+  height: 0; }

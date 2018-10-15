@@ -374,7 +374,8 @@ header #nav-con .level-top {
   background: yellow;
   float: left;
   line-height: 40px;
-  background: linear-gradient(to right, #f00, #ff3264); }
+  background: linear-gradient(to right, #f00, #ff3264);
+  position: relative; }
 
 header #nav-con .nav-item {
   width: 865px;
@@ -402,6 +403,30 @@ header #nav-con .level-top span {
   color: #fff;
   font-size: 14px; }
 
+header #nav-con .level-item {
+  text-align: left;
+  z-index: 1;
+  position: absolute;
+  left: 0; }
+
+header #nav-con .level-item li {
+  background: linear-gradient(to right, #f00, #ff3264);
+  border-top: 1px solid #999;
+  line-height: 40px;
+  height: 40px;
+  vertical-align: middle;
+  z-index: 1;
+  width: 164px; }
+
+header #nav-con .level-item img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-left: 14px;
+  margin-right: 22px;
+  margin-bottom: -4px; }
+
 header #nav-con .nav-item li {
   padding: 0 20px;
   line-height: 40px;
@@ -414,3 +439,62 @@ header #nav-con .nav-item li a {
 
 header #nav-con .nav-item li a:hover {
   color: #ff1e32; }
+
+#banner {
+  width: 1308px;
+  height: 505px;
+  position: relative;
+  overflow: hidden;
+  float: left; }
+
+#showImg img {
+  width: 100%;
+  height: 505px; }
+
+#showImg ul {
+  position: absolute;
+  left: 0;
+  width: 1308px;
+  height: 505px; }
+
+#showImg li {
+  display: block;
+  float: left;
+  height: 505px;
+  width: 1308px; }
+
+#showImg li a {
+  display: block;
+  height: 505px;
+  width: 1308px; }
+
+#btnList {
+  position: absolute;
+  left: 50%;
+  bottom: 65px;
+  height: 10px;
+  width: 150px; }
+
+#btnList button {
+  display: block;
+  float: left;
+  height: 10px;
+  width: 10px;
+  padding: 0;
+  margin-right: 8px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0); }
+
+#banner #left {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  z-index: 2; }
+
+#banner #right {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 2; }

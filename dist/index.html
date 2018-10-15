@@ -257,7 +257,8 @@
             </div>
         </div> 
     </header>
-    <div id="banner">
+    <div class="ban">
+    <div id="banner" >
         <button id="left">左</button>
         <button id="right">右</button>
         <div id="showImg">
@@ -282,14 +283,74 @@
             <button></button> 
         </div>
         <div class="cos">
+            <div class="cos-con">
+                <a href="#">
+                    <em>
+                        <img src="images/zi.jpg" alt="">
+                    </em>
+                    <span>网易自营</span>
+                </a>
+                <a href="#">
+                    <em>
+                        <img src="images/qiu.jpg" alt="">
+                    </em>
+                    <span>全球直采</span>
+                </a>
+                <a href="#">
+                    <em>
+                        <img src="images/zhen.jpg" alt="">
+                    </em>
+                    <span>假一赔十</span>
+                </a>
+                <a href="#">
+                    <em>
+                        <img src="images/qian.jpg" alt="">
+                    </em>
+                    <span>售后无忧</span>
+                </a>
+                <a href="#" class="download">
+                    <em>
+                        <img src="images/phone.png" alt="">
+                    </em>
+                    <span>
+                        领考拉1000元新人礼，APP下单更享手机价
+                    </span>
+                </a>
+            </div>
             
+        </div>
+    </div>
+</div>
+    <!-- top搜索条 -->
+    <div class="sou">
+        <div class="sou-inner">
+            <div class="sou-con">
+                <img src="images/sou.png" alt="">
+               
+                    <div class="search">
+                        <div class="wrap">
+                            <input type="text" placeholder="欧舒丹护手霜">
+                        </div> 
+                        <span class="but-box">
+                            <span class="but">
+        
+                            </span>
+                        </span> 
+                        <span class="phone">
+        
+                        </span> 
+                    </div> 
+                
+            </div>
         </div>
     </div>
     
     
 
 
+<footer>
 
+</footer>
 
 
 
@@ -386,6 +447,23 @@
             right_btn : "#right",
             btn_list : "#btnList button" 
         })
-	</script>
+    </script>
+    
+    <!-- top搜索 -->
+    <script type="text/javascript">
+    	$(window).scroll(function(){ 
+	        var clientHeight = document.documentElement.clientHeight;
+	        if($(this).scrollTop() > clientHeight ){
+	            $(".sou").stop().animate({
+	                top:0
+	            },200)
+	        }
+	        if($(this).scrollTop() <= clientHeight){
+	            $(".sou").stop().animate({
+	                top:"-51"
+	            },200)
+	        }
+	    });
+    </script>
 </body>
 </html>

@@ -102,6 +102,8 @@
     padding:0 14px 0 8px;
     box-sizing: border-box;
     display: none;
+    z-index: 1;
+    background: #fff;
 }
 #topNavIndex .right .selefmore a{  
     display: block;
@@ -128,6 +130,8 @@
    position: absolute;
    left: 0;
    display: none;
+   z-index: 1;
+    background: #fff;
 }
 #topNavIndex .right .service:hover .service-more{
     display: block;
@@ -177,6 +181,8 @@
     left: 0;
     padding: 0 0 0 8px;
     box-sizing: border-box;
+    z-index: 1;
+    background: #fff;
 }
 #topNavIndex .right .top-more a{
     display: block;
@@ -203,6 +209,8 @@
     padding: 0 0 0 8px;
     box-sizing: border-box;
     display: none;
+    z-index: 1;
+    background: #fff;
 }
 // 更多二级菜单
 #topNavIndex .right .more{
@@ -226,6 +234,8 @@
     position: absolute;
     right: 0;
     padding: 0 0 0 8px;
+    z-index: 1;
+    background: #fff;
 }
 
 // header部分
@@ -248,6 +258,7 @@ header{
     float: left;
     margin-top: 20px;
 }
+
 // 搜索栏部分
 header #search{
     width: 510px;
@@ -286,4 +297,146 @@ header #search .but-box{
     right: 0;
     position: absolute;
    
+}
+header #search .but-box .but{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    background: url(https://haitao.nos.netease.com/6e4da089-9347-4dc2-be19-4962832a4a5c.png?imageView&thumbnail=20x0&quality=85&v=1) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    line-height: 40px;
+    text-align: center;
+    background-position: 14px 11px;
+}
+header #search .phone{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(https://mm.bst.126.net/images/index/icon1.png?832edc2…) no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    background-position: -466px -667px;
+}
+
+header #search .ep{
+    width: 461px;
+    height: 22px;
+    font-size: 12px;
+    margin: 2px 0 0 0;
+    float: left;
+}
+header #search .ep li{
+    float: left;
+    margin-left: 30px;
+
+}
+header #search .ep li .internal{
+    color: #ff1e32
+}
+header #search .ep li:hover a{
+    text-decoration: underline;
+}
+
+// 购物车
+header #shopcar{
+    width: 110px;
+    height: 40px;
+    background: #ff2337;
+    border-radius: 36px;
+    position: absolute;
+    right: 76px;
+    top: 20px;
+}
+header #shopcar a{
+    display: inline-block;
+    width: 106px;
+    height: 36px;
+    background: #fff;
+    border-radius: 36px;
+    line-height: 36px;
+    margin: 2px 1px 2px 2px;
+    text-align: center;
+}
+header #shopcar .img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://haitao.nos.netease.com/14f1eb69-f7c0-4d4f-95d8-4aee8e2e1f1b.png?imageView&thumbnail=20x0&quality=90) no-repeat;
+    margin-bottom: -4px;
+}
+header #shopcar .int{
+    font-size: 14px;
+    color: #333;
+}
+header #shopcar a:hover{
+    background: #fff4f5;
+}
+
+// 导航条部分
+header #nav{
+    width: 1308px;
+    height: 41px;
+    background: blueviolet;
+    margin: 0 auto;
+}
+header #nav-con{
+    width: 1090px;
+    height: 40px;
+    background: #fff4f5;
+    margin: 0 auto;
+} 
+header #nav-con .level-top{
+    width: 164px;
+    height: 40px;
+    background: yellow;
+    float: left;
+    line-height: 40px;
+    background: linear-gradient(to right,#f00,#ff3264);
+    // text-align: center;
+}
+header #nav-con .nav-item{
+    width: 865px;
+    height: 40px;
+    background: paleturquoise;
+    float: left;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+// level-top 部分
+header #nav-con .icon {
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 24px 0 15px;
+    line-height: 40px;
+}
+header #nav-con .icon i{
+    width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px;
+}
+header #nav-con .level-top span{
+    color: #fff;
+    font-size: 14px;
+
+}
+
+header #nav-con .nav-item li{
+    padding: 0 20px;
+    line-height: 40px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+header #nav-con .nav-item li a{
+    color: #333;
+
+}
+header #nav-con .nav-item li a:hover{
+    color: #ff1e32
 }

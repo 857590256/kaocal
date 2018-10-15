@@ -227,3 +227,63 @@
     right: 0;
     padding: 0 0 0 8px;
 }
+
+// header部分
+header{
+    width: 1308px;
+    height: 100px;
+
+}
+.header-top{
+    width: 1090px;
+    height: 100px;
+    background: yellowgreen;
+    margin: 0 auto;
+    position: relative;
+}
+.header-top .logo-img{
+    background: url(http://haitao.nos.netease.com/70dee793-133d-4628-b374-b99e29aad157.png?imageView&thumbnail=210x0&quality=85&v=1) no-repeat;
+    width: 330px;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+}
+// 搜索栏部分
+header #search{
+    width: 510px;
+    height: 40px;
+    padding-left: 1px;
+    background-color: #ff2337;
+    border-radius: 40px;
+    float: left;
+    
+    margin-top: 20px;
+    position: relative;
+}
+header #search .wrap{
+    width: 479px;
+    height: 36px;
+    float: left;
+    margin: 2px 1px;
+    padding: 6px 39px 6px 30px;
+    background-color: #fff;
+    border-radius: 24px 0 0 24px;
+}
+header #search .wrap input{
+    width: 410px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+header #search .but-box{
+    display: block;
+    width: 60px;
+    height: 40px;
+    background: #ff2337;
+    border-radius: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+   
+}

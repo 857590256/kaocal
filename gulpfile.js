@@ -19,7 +19,7 @@ var sass = require("gulp-sass-china");
 
 gulp.task('connect', function() {
     connect.server({
-        port:8888,
+        
         root:"dist/",
         livereload:true,
         // 中间件;
@@ -64,6 +64,7 @@ gulp.task("sass", () =>{
     return gulp.src(["sass/*.scss"])
            .pipe(sass().on("error",sass.logError))
            .pipe(gulp.dest("dist/css"))
+           .pipe(gulp.dest("styles"))
 })
 
 // 编译 ? es6 => es5;

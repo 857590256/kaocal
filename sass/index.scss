@@ -610,7 +610,6 @@ header #nav-con .nav-item li a:hover{
     width: 510px;
     height: 40px;
     padding-left: 1px;
-    background-color: #ff2337;
     border-radius: 40px;
     float: left; 
     position: relative;
@@ -638,7 +637,6 @@ header #nav-con .nav-item li a:hover{
     display: block;
     width: 60px;
     height: 40px;
-    background: #ff2337;
     border-radius: 40px;
     top: 0;
     right: 0;
@@ -684,28 +682,177 @@ header #nav-con .nav-item li a:hover{
 footer{
     width: 1308px;
     height: 564px;
-    background: yellowgreen;
     margin: 0 auto;
+    margin-top: 40px;
 }
 footer .foot{
     width: 1090px;
     height: 410px;
-    background: #ff3264;
     margin: 0 auto;
 }
-footer .foot .list{
+footer .foot .list-tp{
     width: 1090px;
     height: 147px;
-    background: yellow;
     border-bottom: 1px solid #eaeaea;
-    line-height: 100px;
+   
+    vertical-align: middle;
+    padding: 49px 0 ;
 }
-footer .foot .list div{
-    display: inline-block;
-    width: 223px;
+footer .foot .list-tp .list{
+    width: 1090px;
     height: 48px;
-    margin-left: 42px;
+    float: left;
 }
-footer .foot .list  span{
+footer .foot .list-tp li{
+    width: 233px;
+    height: 48px;
+    margin-left: 34px;
+    float: left;
+}
+footer .foot .list-tp strong{
+    display: block;
+    font-size: 18px;
+    width: 120px;
+    height: 20px;
+    font-weight: bold;
+    float: left;
+}
+footer .foot .list-tp span{
+    font-size: 14px;
+    display: block;
+    height: 20px;
+    margin-top: 5px;
+    float: left;
+}
+footer  .radius{
     display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: bold;   
+    float: left;
+    margin-right: 12px;
+}
+// 下半部
+footer .list-down{
+    width: 1090px;
+    height: 263px;
+    margin: 0 auto;
+    padding: 45px 0 90px 0;
+}
+footer .list-down .item{
+    width: 1090px;
+    height: 128px;
+}
+footer .list-down .left-logo{
+    width: 258px;
+    height: 128px;
+  
+    float: left;
+}
+footer .list-down .left-logo .logo{
+    display: block;
+    width: 220px;
+    height: 43px;
+    background: url(//haitao.nos.netease.com/d31a8833-2f5d-4a88-a396-a3b88979d251.png?imageView&thumbnail=220x0&quality=85&v=1) no-repeat;
+    margin-bottom: 20px;
+}
+footer .list-down .left-logo .focuson{
+    width: 218px;
+    height: 32px;
+    font-size: 12px;
+}
+footer .list-down .left-logo .focuson span{
+    display: inline-block;
+    width: 48px;
+    height: 18px;
+    
+}
+footer .list-down .left-logo .focuson .itm{
+    display: inline-block;
+    width: 32px;
+    height: 37px;
+    margin-left: 10px;
+    position: relative;
+}
+footer .list-down .left-logo .focuson .itm em{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-left: 10px;
+    text-align: center
+}
+footer .list-down .left-logo .focuson .itm .weibo{
+    background: url(https://haitao.nos.netease.com/a4b6e70e-be73-43e0-93de-7f9d5a2ee5ce.png?imageView&thumbnail=32x0&quality=85&v=1) no-repeat;
+    background-position: 32px 32px center;
+}
+footer .list-down .left-logo .focuson .itm .weixin{
+    background: url(https://haitao.nos.netease.com/5c73c116-766b-4c2a-aad6-5f417b6d6725.png?imageView&thumbnail=32x0&quality=85&v=1) no-repeat;
+    background-position: 32px 32px center;
+}
+footer .list-down .left-logo .focuson .itm .yixin{
+    background: url(https://haitao.nos.netease.com/bc47f148-5e45-4e4f-83ac-265ddc1e85b3.png?imageView&thumbnail=32x0&quality=85&v=1) no-repeat;
+    background-position: 32px 32px center;
+}
+// footer .list-down  .focuson .itm span{
+     
+//     text-align: center;
+//     border: solid 1px #ededee;
+//     padding: 10px;
+//     position: absolute;
+//     left: -44px;
+//     top: 42px;
+//     background: #fff;
+    
+// }
+// footer .list-down .left-logo .focuson .itm span img{
+//     display: inline-block;
+//     width: 100px;
+//     height: 100px;
+//     vertical-align: middle;
+//     text-align: center;
+// }
+footer .list-down .list-con{
+    width: 655px;
+    height: 128px;
+    float: left;
+}
+footer .list-down .list-con li{
+    width: 131px;
+    height: 128px;
+    float: left;
+}
+footer .list-down .list-con li dt{
+    margin-bottom: 10px;
+}
+footer .list-down .list-con li dd{
+    width: 110px;
+    height: 29px;
+    line-height: 28px;
+    font-size: 12px;
+}
+footer .list-down .list-con li dd a{
+    color: #333;
+}
+footer .list-down .list-con li dd a:hover{
+    text-decoration: underline;
+}
+footer .list-down .list-con li em{
+    font-size: 18px;
+}
+footer .list-down .ph{
+    width: 108px;
+    height: 128px;
+   float: left;
+   text-align: center;
+   margin-left: 10px;
+}
+footer .list-down .ph span{
+    font-size: 12px;
+    text-align: center;
 }

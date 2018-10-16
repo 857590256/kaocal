@@ -238,7 +238,6 @@ header {
 .header-top {
   width: 1090px;
   height: 100px;
-  background: yellowgreen;
   margin: 0 auto;
   position: relative; }
 
@@ -359,19 +358,16 @@ header #shopcar a:hover {
 header #nav {
   width: 1308px;
   height: 41px;
-  background: blueviolet;
   margin: 0 auto; }
 
 header #nav-con {
   width: 1090px;
   height: 40px;
-  background: #fff4f5;
   margin: 0 auto; }
 
 header #nav-con .level-top {
   width: 164px;
   height: 40px;
-  background: yellow;
   float: left;
   line-height: 40px;
   background: linear-gradient(to right, #f00, #ff3264);
@@ -380,7 +376,6 @@ header #nav-con .level-top {
 header #nav-con .nav-item {
   width: 865px;
   height: 40px;
-  background: paleturquoise;
   float: left;
   padding-left: 25px;
   box-sizing: border-box; }
@@ -579,7 +574,8 @@ header #nav-con .nav-item li a:hover {
   position: relative;
   margin-top: 7px;
   position: absolute;
-  left: 440px; }
+  left: 440px;
+  background-color: #ff2337; }
 
 .sou .search .wrap {
   width: 479px;
@@ -603,7 +599,8 @@ header #nav-con .nav-item li a:hover {
   border-radius: 40px;
   top: 0;
   right: 0;
-  position: absolute; }
+  position: absolute;
+  background-color: #ff2337; }
 
 .sou .search .but-box .but {
   width: 50px;
@@ -781,3 +778,52 @@ footer .list-down .ph {
 footer .list-down .ph span {
   font-size: 12px;
   text-align: center; }
+
+footer .foot-last {
+  width: 1308px;
+  height: 153px;
+  background: #333;
+  margin: 0 auto;
+  color: #c2c2c2;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 26px;
+  font-size: 12px; }
+
+footer .foot-last a {
+  color: #c2c2c2; }
+
+footer .foot-last a:hover {
+  text-decoration: underline; }
+
+footer .foot-last span {
+  margin-left: 20px; }
+
+footer .foot-last .plice {
+  margin-left: 5px; }
+
+footer .foot-last .img {
+  vertical-align: middle;
+  margin-left: 10px; }
+
+footer .foot-last .img a {
+  margin-top: -5px;
+  vertical-align: middle; }
+
+footer .foot-last .one img {
+  display: block;
+  width: 83px;
+  height: 30px;
+  margin-right: 10px; }
+
+footer .foot-last .three img {
+  display: block;
+  width: 27px;
+  height: 30px; }
+
+footer .foot-last .two img {
+  display: block;
+  width: 83px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px; }

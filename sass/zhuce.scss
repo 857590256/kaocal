@@ -166,12 +166,16 @@ header .wrap .img{
     border: 0;
     outline: none;
 }
+.changephone{
+    width: 268px;
+    height: 12px;
+}
 .center .con .box .m-pc{
     position: relative;
     color: #666;
     width: 270px;
     height: 36px;
-    margin-top: 56px;
+    margin-top: 36px;
     border: 1px solid #c5cddb;
     border-radius: 2px;
 }
@@ -226,7 +230,7 @@ header .wrap .img{
     height: 36px;
     margin-top: 7px;
     margin-bottom: 10px;
-
+    line-height: 36px;
 }
 .center .con .box .login a{
     height: 36px;
@@ -321,7 +325,8 @@ header .wrap .img{
     height: 16px;
     line-height: 16px;
     font-size: 12px;
-
+    text-align: left;
+    // float: left;
 }
 .center .con .down{
     width: 350px;

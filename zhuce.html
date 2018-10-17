@@ -43,6 +43,7 @@
                                             <div class="u-input">
                                                 <input type="text" placeholder="请输手机号" id="phone">
                                             </div>
+                                            <div class="changephone" id="tip1"></div>
                                             <div class="m-pc">
                                                 <input type="text" placeholder="请输入短信验证码">
                                                 <div class="pcb">
@@ -52,23 +53,17 @@
                                             <div class="error">
                     
                                             </div>
-                                            <div class="psw">
+                                            <div class="psw register_input">
                                                 <div class="u-logo">
                                                     <div class="img"></div>
                                                 </div>
-                                                <input type="text" placeholder="请输入密码" id="pwd">
+                                                <input type="text" placeholder="请输入密码" id="password">
                                             </div>
-                                            <div class="changePasw"></div>
+                                            <div class="changePasw" id="tip2"></div>
                                             <div class="login">
                                                 <a href="#">注 册</a>
                                             </div>
-                                            <div class="u-login">
-                                                <div class="u-login1">
-                                                    <input type="checkbox">
-                                                    <span>10天免登录</span>
-                                                    <a href="#">遇到问题？</a>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                             </div>
@@ -135,8 +130,92 @@
             </footer>
         
         
-        
-        
+        <script>
+            //1手机
+    var oPhone = document.getElementById("phone");
+    var oPhoneTips = document.getElementById("tip1");
+    oPhone.onfocus = function(){
+        var sPhone = oPhone.value;
+        if(sPhone ==""){
+            oPhoneTips.innerHTML = "请输入手机号码"
+            oPhoneTips.style.color = "red"
+        }
+    }
+        oPhone.onblur = function(){
+            var reg = /^1[34578]\d{9}$/
+            var sPhone = oPhone.value;
+            if(sPhone!=""){
+                if(reg.test(sPhone)){
+                    oEmTips.innerHTML = "";
+                }else{
+                    oPhoneTips.innerHTML = "邮箱格式错误";
+                    oPhoneTips.style.color = "red";
+                }
+            }        
+        }
+
+            function checkPhone(){ 
+    var phone = document.getElementById('phone').value;
+    if(!(/^1[34578]\d{9}$/.test(phone))){ 
+        alert("手机号码有误，请重填");  
+        return false; 
+    } 
+}
+
+       
+            // 2. 密码 
+            // 长度只能在6-20个字符之间任意字符
+            var oPwd = document.getElementById("password");
+            var oPwdTips = document.getElementById("tip2")
+            oPwd.onfocus = function(){
+                var sPwd = oPwd.value;
+                if(sPwd ==""){
+                    oPwdTips.innerHTML = "字母、数字和符号,6-20个字符之间"
+                }            
+            }
+            oPwd.onblur = function(){
+                var sPwd = oPwd.value;
+                
+                if(sPwd.length<6 || sPwd.length>20){
+                    oPwdTips.innerHTML = "6-20个字符之间";
+                    return 0;
+                }
+                
+            }
+            oPwd.oninput = function(){
+                var sPwd = oPwd.value;
+                var regNumber = /\d/;
+                var regWord = /[a-zA-Z]/;
+                var regSmbol = /[^\da-zA-Z]/;
+                var rate = 0;
+                if(regNumber.test(sPwd)){
+                    rate ++;
+                    //oPwdTips.innerHTML = "弱!有被盗风险,建议使用字母、数字和符号两种及以上组合" 
+                }
+                if(regWord.test(sPwd)){
+                    rate ++;
+                }
+                if(regSmbol.test(sPwd)){
+                    rate ++;
+                }
+    //          console.log(rate);
+                switch(rate){
+                    case 1 :
+                    oPwdTips.innerHTML = "密码强度弱" ;
+                    oPwdTips.style.color = "red"
+                    break;
+                    case 2 :
+                    oPwdTips.innerHTML = "密码强度中" ;
+                    oPwdTips.style.color = "orange"
+                    break;
+                    case 3 :
+                    oPwdTips.innerHTML = "密码强度高" ;
+                    oPwdTips.style.color = "green"
+                    break;
+                }          
+            }
+
+             </script>
         </body>
         </html>
 </body>

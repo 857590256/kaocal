@@ -40,6 +40,7 @@ gulp.task("html", ()=>{
 
 gulp.task("watch", ()=>{
     gulp.watch("index.html",["html","sass"]);
+    
     gulp.watch("sass/*.scss",["html","sass"]);
 })
 

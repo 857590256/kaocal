@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/denglu.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <a href="#">
+            </a>
+            <div class="img">
+
+            </div>
+        </div>
+    </header>
+    <div class="center">
+        <div class="con">
+            <div class="top">
+                <div class="name head1">手机号登录</div>
+                <span class="line">&nbsp;</span>
+                <div class="name head2">邮箱登录</div>
+            </div>
+            
+            <div class="boxs">
+                    <div class="box active">
+                            <div class="form">
+                                <div class="u-tab">
+                                    <a class="tab0" href="#">使用密码验证登录</a>
+                                </div>
+                                <div class="inputbox">
+                                    <div class="u-logo">
+                                        <div class="img"></div>
+                                    </div>
+                                    <div class="u-input">
+                                        <input type="text" placeholder="请输手机号">
+                                    </div>
+                                    <div class="m-pc">
+                                        <input type="text" placeholder="请输入短信验证码">
+                                        <div class="pcb">
+                                            <a href="#">获取验证码</a>
+                                        </div>
+                                    </div>
+                                    <div class="error">
+            
+                                    </div>
+                                    <div class="login">
+                                        <a href="#">登  录</a>
+                                    </div>
+                                    <div class="u-login">
+                                        <div class="u-login1">
+                                            <input type="checkbox">
+                                            <span>10天免登录</span>
+                                            <a href="#">遇到问题？</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="box2">
+                            <div class="form">
+                                <div class="email">
+                                    <div class="u-logo">
+                                        <div class="img"></div>
+                                    </div>
+                                    <input type="text" placeholder="网易邮箱帐号">
+                                </div>
+                                <div class="changeEmail">
+                                    
+                                </div>
+                                <div class="psw">
+                                    <div class="u-logo">
+                                        <div class="img"></div>
+                                    </div>
+                                    <input type="text" placeholder="密码">
+                                </div>
+                                <div class="changePasw"></div>
+                                <div class="login">
+                                    <a href="#">登  录</a>
+                                </div>
+                                <div class="u-login">
+                                    <div class="u-login1">
+                                        <input type="checkbox">
+                                        <span>10天免登录</span>
+                                        <a href="#">遇到问题？</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+            
+            <div class="down">
+                <ul class="logo">
+                    <li class="weibo"></li>
+                    <li class="weixin"></li>
+                    <li class="zhifu"></li>
+                    <li class="qq"></li>
+                </ul>
+                <a href="#">手机快捷注册</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="about">
+            <a href="">About NetEase</a>
+            <span class="sep">|</span>
+            <a href="">公司简介</a>
+            <span class="sep">|</span>
+            <a href="">联系方法</a>
+            <span class="sep">|</span>
+            <a href="">友情链接</a>
+            <span class="sep">|</span>
+            <a href="">招聘信息</a>
+            <span class="sep">|</span>
+            <a href="">客户服务</a>
+            <span class="sep">|</span>
+            <a href="">隐私政策</a>
+            <span class="sep">|</span>
+            <a href="">网络营销</a>
+            <span class="sep">|</span>
+            <a href="">网易考拉</a>
+            <br>
+            <span class="listen">网络文化经营许可证：浙网文[2016]0155-055号</span>
+            <span class="listen">增值电信业务经营许可证：浙B2-20160288</span>
+            <span class="listen">
+                <a href="#">
+                        自营经营者信息
+                </a>
+            </span>
+            <span class="listen">（浙）网械平台备字[2018]第00007号</span>
+            <br>
+            <a href="#" class="balnk">
+                <img src="//haitao.nos.netease.com/f28aa8ee818a42bf832341f605eccefb.png" alt="">
+            </a>
+            <a href="#" class="balnk">
+                <span>
+                        浙公网安备 33010802002216号
+                </span>
+            </a>
+            <span class="listen">网易公司版权所有©1997-2018</span>
+            <a href="#" class="balnk">
+                <span>
+                        互联网药品信息服务资格证书编号（浙）-2017-0027
+                </span>
+            </a>
+            <span class="listen">浙ICP备16011229号-6</span>
+        </div>
+    </footer>
+
+
+
+
+
+<!-- <script>
+
+     function Tab(btn_selector,item_selector){
+            this.abtn = document.querySelectorAll(btn_selector);
+            console.log(this.abtn);
+            this.aItem = document.querySelectorAll(item_selector);
+            console.log(this.aItem);
+        }
+        Tab.prototype.init = function(){
+            
+            this.handleEvent();
+        }
+        Tab.prototype.handleEvent = function(){
+        
+            for(var i = 0 ; i < this.abtn.length ; i ++){
+                // 添加元素标记;
+                this.abtn[i].index = i;
+                console.log(this.abtn[i]);
+                this.abtn[i].onclick = this.changIndex.bind(this);
+            }
+        }
+        Tab.prototype.changIndex = function(event){
+            var e = event || window.event;
+           
+            var target = e.target || e.srcElement;
+           
+            
+            this.index = target.index;
+            console.log(this.index);
+            this.show();
+        }
+        Tab.prototype.show = function(){
+            for(var i = 0 ; i < this.aItem.length ; i ++){
+                this.aItem[i].style.display = "none";
+                
+            }
+            //console.log(this.index);
+            this.aItem[this.index].style.display = "block";
+            this.abtn[this.index].className +=" current";
+            //console.log(this.abtn[this.index])
+        }
+       
+        var tab = new Tab(".top div",".box",".box2");
+        tab.init();
+
+</script> -->
+<script src="jquery.js"></script>
+<script>
+$(".top div").click(function(){
+            // alert($(this).index());
+            var index=$(this).index();
+            $(this).css({'color':"#e31436"});
+            $(this).siblings().css({'color':'#333333'});
+            switch(index){
+                    case 0: $(this).parent().next('.boxs').children('.box').css("display","block") ;
+                            $(this).parent().next('.boxs').children('.box').siblings().css("display","none");break;
+                    case 2: $(this).parent().next('.boxs').children('.box2').css("display","block") ;     
+                            $(this).parent().next('.boxs').children('.box2').siblings().css("display","none");break;                
+            }  
+
+        })
+</script>
+
+
+
+</body>
+</html>

@@ -35,12 +35,12 @@ gulp.task('connect', function() {
 // localhost:8888/proxy/目标;
 
 gulp.task("html", ()=>{
-    return gulp.src("*.html").pipe(gulp.dest("dist/")).pipe(connect.reload());;
+    return gulp.src("*.html").pipe(gulp.dest("dist/")).pipe(connect.reload());
 })
 
 gulp.task("watch", ()=>{
     gulp.watch("index.html",["html","sass"]);
-    
+    // gulp.watch("denglu.html",["html","sass"]);
     gulp.watch("sass/*.scss",["html","sass"]);
 })
 

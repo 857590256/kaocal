@@ -1,0 +1,599 @@
+body{
+    background-color: #eaa9bc;
+}
+#topNav{
+    width: 1308px;
+    height: 31px;
+    background: #000;
+    color: #999;
+    margin: 0 auto
+}
+#topNavIndex{
+    width: 1090px;
+    height: 30px;
+    margin: 0 109px;
+    background: #000;
+    font-size: 12px;
+    line-height: 30px;
+}
+/* 左一 */
+#topNavIndex .left{
+    float: left;
+}
+#topNavIndex .left a{
+    margin-left: 16px;
+    margin-right: 4px;
+}
+#topNavIndex .left a:hover{
+    color: #fff;
+}
+/* 左二 */
+#topNavIndex .left2{
+    float: left;
+    width: 78px;
+    height: 30px;
+    padding-left: 30px;
+    
+}
+#topNavIndex .left2 a{
+   display: inline;
+    
+    position: relative;
+}
+#topNavIndex .left2 a:hover{
+    color: #fff;
+}
+#topNavIndex .left2 .app{
+    position: absolute;
+    left: -30px;
+    top: 35px;
+    padding: 5px 5px 0;
+    border: solid 1px #ededee;
+    display: none;
+    text-align: center;
+}
+#topNavIndex .left2 :hover .app{
+    display: block;
+}
+#topNavIndex .left2 p{
+    display: block;
+    color: #ff1e32;
+    font-size:14px;
+    padding: 4px 0;
+    line-height: 16px;
+    width: 120px;
+}
+/* 右 */
+#topNavIndex .right{
+    float: right;
+    width: 602px;
+    height: 30px;
+}
+#topNavIndex .right ul{
+    float: left;
+}
+#topNavIndex .right ul li{
+    padding: 0 14px 0 8px;
+    float: left;
+}
+#topNavIndex .right ul .sign:hover a{
+    color:#fff;
+}
+#topNavIndex .right ul .order:hover a{
+    color:#fff;
+}
+// 个人中心二级菜单
+#topNavIndex .right ul .selef{
+    width: 93px;
+    height: 31px;
+    position: relative;
+}
+#topNavIndex .right ul .selef:hover{
+    background: #fff;  
+}
+#topNavIndex .right ul .selef:hover .selefmore{
+    display: block;
+}
+#topNavIndex .right ul .selef a:hover{
+    color: #ff1e32
+}
+#topNavIndex .right .selefmore{
+    width: 119px;
+    position: absolute;
+    left: 0px;
+    padding:0 14px 0 8px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 1;
+    background: #fff;
+}
+#topNavIndex .right .selefmore a{  
+    display: block;
+    line-height: 30px;
+}
+#topNavIndex .right .selefmore a:hover{
+    color: #ff1e32;
+}
+// 客户服务二级菜单
+#topNavIndex .right .service{
+    width: 93px;
+    height: 31px;
+    position: relative;
+}
+#topNavIndex .right .service:hover{
+    background: #fff;
+}
+#topNavIndex .right .service a:hover{
+    color: #ff1e32;
+}
+#topNavIndex .right .service-more{
+   width: 99px;
+   height: 73px;
+   position: absolute;
+   left: 0;
+   display: none;
+   z-index: 1;
+    background: #fff;
+}
+#topNavIndex .right .service:hover .service-more{
+    display: block;
+}
+#topNavIndex .right .service-more a{
+    display: block;
+    line-height: 30px;
+    padding: 0 0 0 8px ;
+    box-sizing: border-box;
+}
+#topNavIndex .right .ser em{
+    display: inline-block;
+    background: url(//mm.bst.126.net/images/index/icon1.png?832edc2…) no-repeat;
+    width: 14px;
+    height: 14px;
+    line-height: 28px;
+    background-position: -5px -290px; 
+}
+#topNavIndex .right .help em{
+    display: inline-block;
+    background: url(//mm.bst.126.net/images/index/icon1.png?832edc2b581ff4b584df7635efbb5a54) no-repeat;
+    width: 14px;
+    height: 14px;
+    line-height: 28px;
+    background-position: -5px -324px;
+}
+// 充值中心二级菜单
+#topNavIndex .right .top-up{
+    width: 93px;
+    height: 31px;
+    position: relative;
+}
+#topNavIndex .right .top-up:hover{
+    background: #fff;
+}
+#topNavIndex .right .top-up:hover .top-more{
+    display: block;
+}
+#topNavIndex .right .top-up a:hover{
+    color: #ff1e32; 
+}
+#topNavIndex .right .top-more{
+    width: 111px;
+    height: 101px;
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+    z-index: 1;
+    background: #fff;
+}
+#topNavIndex .right .top-more a{
+    display: block;
+    line-height: 28px;
+}
+// 消费者权益二级菜单
+#topNavIndex .right .interests{
+    width:105px;
+    height: 31px;
+    position: relative;
+}
+#topNavIndex .right .interests:hover{
+    background: #fff;
+}
+#topNavIndex .right .interests a:hover{
+    color: #ff1e32;
+}
+#topNavIndex .right .interests:hover .interests-more{
+    display: block;
+}
+#topNavIndex .right .interests-more{
+    position: absolute;
+    left: 0;
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 1;
+    background: #fff;
+}
+// 更多二级菜单
+#topNavIndex .right .more{
+    width:66px;
+    height: 31px;
+    position: relative;
+}
+#topNavIndex .right .more:hover{
+    background: #fff;
+}
+#topNavIndex .right .more:hover .mores{
+    display: block;
+}
+#topNavIndex .right .more a:hover{
+    color: #ff1e32;
+}
+#topNavIndex .right .mores{
+   display: none;
+    width: 91px;
+    height: 188px;
+    position: absolute;
+    right: 0;
+    padding: 0 0 0 8px;
+    z-index: 1;
+    background: #fff;
+}
+
+// header部分
+header{
+    width: 1308px;
+    height: 100px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.header-top{
+    width: 1090px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.header-top .logo-img{
+    background: url(http://haitao.nos.netease.com/70dee793-133d-4628-b374-b99e29aad157.png?imageView&thumbnail=210x0&quality=85&v=1) no-repeat;
+    width: 330px;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+}
+
+// 搜索栏部分
+header #search{
+    width: 510px;
+    height: 40px;
+    padding-left: 1px;
+    background-color: #ff2337;
+    border-radius: 40px;
+    float: left; 
+    margin-top: 20px;
+    position: relative;
+}
+header #search .wrap{
+    width: 479px;
+    height: 36px;
+    float: left;
+    margin: 2px 1px;
+    padding: 6px 39px 6px 30px;
+    background-color: #fff;
+    border-radius: 24px 0 0 24px;
+}
+header #search .wrap input{
+    width: 410px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+header #search .but-box{
+    display: block;
+    width: 60px;
+    height: 40px;
+    background: #ff2337;
+    border-radius: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+   
+}
+header #search .but-box .but{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    background: url(https://haitao.nos.netease.com/6e4da089-9347-4dc2-be19-4962832a4a5c.png?imageView&thumbnail=20x0&quality=85&v=1) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    line-height: 40px;
+    text-align: center;
+    background-position: 14px 11px;
+}
+header #search .phone{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(https://mm.bst.126.net/images/index/icon1.png?832edc2…) no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    background-position: -466px -667px;
+}
+
+header #search .ep{
+    width: 461px;
+    height: 22px;
+    font-size: 12px;
+    margin: 2px 0 0 0;
+    float: left;
+}
+header #search .ep li{
+    float: left;
+    margin-left: 30px;
+
+}
+header #search .ep li .internal{
+    color: #ff1e32
+}
+header #search .ep li:hover a{
+    text-decoration: underline;
+}
+
+// 购物车
+header #shopcar{
+    width: 110px;
+    height: 40px;
+    background: #ff2337;
+    border-radius: 36px;
+    position: absolute;
+    right: 76px;
+    top: 20px;
+}
+header #shopcar a{
+    display: inline-block;
+    width: 106px;
+    height: 36px;
+    background: #fff;
+    border-radius: 36px;
+    line-height: 36px;
+    margin: 2px 1px 2px 2px;
+    text-align: center;
+}
+header #shopcar .img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://haitao.nos.netease.com/14f1eb69-f7c0-4d4f-95d8-4aee8e2e1f1b.png?imageView&thumbnail=20x0&quality=90) no-repeat;
+    margin-bottom: -4px;
+}
+header #shopcar .int{
+    font-size: 14px;
+    color: #333;
+}
+header #shopcar a:hover{
+    background: #fff4f5;
+}
+
+// 导航条部分
+header #nav{
+    width: 1308px;
+    height: 41px;
+    margin: 0 auto;
+    background: #fff;
+    
+}
+header #nav-con{
+    width: 1090px;
+    height: 40px;
+    margin: 0 auto;
+} 
+header #nav-con .level-top{
+    width: 164px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    background: linear-gradient(to right,#f00,#ff3264);
+    // text-align: center;
+    position: relative;
+}
+header #nav-con .nav-item{
+    width: 865px;
+    height: 40px;
+    float: left;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+// level-top 部分
+header #nav-con .icon {
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 24px 0 15px;
+    line-height: 40px;
+}
+header #nav-con .icon i{
+    width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px;
+}
+header #nav-con .level-top span{
+    color: #fff;
+    font-size: 14px;
+
+}
+header #nav-con .level-top .all:hover .level-item{
+    display: block;
+}
+header #nav-con  .level-item{
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+header #nav-con  .level-item li{
+    background: linear-gradient(to right,#f00,#ff3264);
+    border-top: 1px solid #999;
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    z-index: 1;
+    width: 164px;
+}
+header #nav-con  .level-item img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin:0;
+    margin-left: 14px;
+    margin-right: 22px;
+    margin-bottom: -4px;
+    
+}
+
+
+// nav-item 部分
+header #nav-con .nav-item li{
+    padding: 0 20px;
+    line-height: 40px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+header #nav-con .nav-item li a{
+    color: #333;
+
+}
+header #nav-con .nav-item li a:hover{
+    color: #ff1e32;
+}
+
+
+
+
+// 瀑布流部分
+.content{
+    width: 1308px;
+    min-height: 132px;
+    background-color: #eaa9bc;
+    margin: 0 auto;
+}
+.content .top{
+    width: 1000px;
+    height: 132px;
+    margin: 0 auto;
+    background: url("https://haitao.nosdn2.127.net/xFHC1CHDyhL1IAmyPCm40It74R7HT18070101748_1920_132.jpg?imageView&thumbnail=1920x132&quality=95&type=webp") no-repeat;
+    background-position: center;
+}
+.content .inner{
+    width: 1308px;
+   
+    height:10052px;
+    margin: 0 auto;
+    background-color: #eaa9bc;
+}
+.content .inner ul{
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+.content .inner li{
+    float: left;
+    width: 194px;
+    height: 279px;
+    background: #fff;
+    margin-right: 4px;
+    position: relative;
+    margin-bottom: 4px;
+}
+.content .inner li .img{
+    width: 192px;
+    height: 192px;
+    position: relative;
+}
+.content .inner li .img img{
+    width: 192px;
+    height: 192px;
+}
+.content .inner li .tejia{
+    width: 101px;
+    height: 18px;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    font-size: 12px;
+}
+.content .inner li .tejia .tag{
+    height: 15px;
+    border: 1px solid #e31436;
+    border-radius: 3px;
+    background: #fff;
+    color: #e31436;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    padding: 0 1px 0 3px;
+}
+.content .inner li h5{
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: .5s ease-out;
+    max-height: 22px;
+    line-height: 22px;
+    margin: 3px 5px;
+}
+.content .inner li h5 a{
+    color: #333;
+}
+.content .inner li h6{
+    height: 20px;
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 5px 5px;
+}
+.content .inner li .price{
+    color: rgb(255, 30, 50);
+    margin: 0 5px;
+    height: 22px;
+    overflow: hidden;
+    white-space: normal;
+    line-height: 22px;
+
+}
+.content .inner li .price .money{
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+.content .inner li .price i{
+    font-size: 12px;
+    font-weight: 400;
+    font-style:normal; 
+}
+.content .inner li .btn{
+    background-color: rgb(255, 30, 50);
+    height: 22px;
+    line-height: 22px;
+    right: 5px;
+    display: block;
+    padding: 0 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}

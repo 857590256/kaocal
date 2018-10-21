@@ -518,8 +518,8 @@ header #nav-con .nav-item li a:hover {
   display: none; }
 
 #big img {
-  width: 1200px;
-  height: 1200px;
+  width: 1600px;
+  height: 1600px;
   position: absolute;
   left: 0;
   top: 0; }
@@ -527,8 +527,7 @@ header #nav-con .nav-item li a:hover {
 .con .about {
   width: 658px;
   height: 657px;
-  float: right;
-  background: yellowgreen; }
+  float: right; }
 
 .con .about .country {
   width: 658px;
@@ -570,3 +569,275 @@ header #nav-con .nav-item li a:hover {
   line-height: 20px;
   font-size: 13px;
   word-wrap: break-word; }
+
+.con .about .price {
+  width: 658px;
+  height: 80px;
+  background-color: #f9f9f9;
+  z-index: 22;
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 4px; }
+
+.con .about .price .tit {
+  display: inline-block;
+  width: 75px;
+  height: 26px;
+  margin-left: 10px;
+  font-size: 12px;
+  float: left;
+  line-height: 26px;
+  margin: 8px 0;
+  vertical-align: 4px;
+  color: #666; }
+
+.con .about .price .price-cnt {
+  margin-left: 71px; }
+
+.con .about .price .price-cnt .cn {
+  background: #f9f9f9;
+  z-index: 1;
+  color: #ff1e32;
+  font-size: 22px;
+  font-weight: bold; }
+
+.con .about .price .price-cnt .label {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #f68587;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 5px;
+  color: #fff;
+  font-size: 12px;
+  vertical-align: 5px;
+  border-radius: 2px; }
+
+.con .about .price .price-cnt .del {
+  vertical-align: 4px;
+  font-size: 12px;
+  color: #999;
+  margin-left: 14px;
+  margin-bottom: 8px; }
+
+.con .about .price .vip {
+  width: 573px;
+  height: 21px;
+  margin-left: 85px; }
+
+.con .about .price .vip img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 14px;
+  margin-right: 3px; }
+
+.con .about .price .vip .vt {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #333;
+  line-height: 20px; }
+
+.con .about .price .vip a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  color: #52b8f1;
+  font-size: 12px;
+  text-decoration: underline; }
+
+.con .about .active {
+  width: 658px;
+  height: 32px; }
+
+.con .about .active .tile {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle; }
+
+.con .about .active .vip {
+  display: inline-block;
+  min-width: 48px;
+  padding: 0 4px;
+  color: #fff;
+  background-color: #e31436;
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle; }
+
+.con .about .active .rmb {
+  color: #e31436;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  max-width: 400px;
+  font-size: 12px; }
+
+.con .about .tex {
+  width: 658px;
+  height: 36px; }
+
+.con .about .tex .tile {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle; }
+
+.con .about .tex .vip {
+  display: inline-block;
+  min-width: 56px;
+  padding: 0 4px;
+  color: #fff;
+  background-color: #e31436;
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle; }
+
+.con .about .tex .rmb {
+  color: #e31436;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  max-width: 400px;
+  font-size: 12px; }
+
+.con .about .fare {
+  width: 658px;
+  height: 24px; }
+
+.con .about .fare .tile {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle; }
+
+.con .about .service {
+  width: 658px;
+  height: 110px; }
+
+.con .about .service .tile {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle; }
+
+.con .about .service .send {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 12px;
+  color: #333; }
+
+.con .about .service .way {
+  width: 573px;
+  height: 54px;
+  margin-left: 85px; }
+
+.con .about .service .way img {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-top: 10px; }
+
+.con .about .service .way .line {
+  width: 60px;
+  height: 1px;
+  display: inline-block;
+  background: #7f7f7f;
+  margin-bottom: 14px; }
+
+.con .about .service .way .cn {
+  width: 573px;
+  height: 20px; }
+
+.con .about .service .way p {
+  display: inline-block;
+  font-size: 12px;
+  color: #333;
+  margin-right: 36px; }
+
+.con .about .num .tile {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle; }
+
+.con .about .num .input {
+  width: 102px;
+  height: 24px; }
+
+.con .about .explain {
+  width: 658px;
+  height: 36px; }
+
+.con .about .explain .tile {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  width: 75px;
+  color: #666;
+  vertical-align: middle; }
+
+.con .about .explain span {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #999; }
+
+.con .about .get {
+  width: 658px;
+  height: 50px; }
+
+.con .about .get .buy {
+  display: inline-block;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background-color: #e31436;
+  border: none;
+  margin-right: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle; }
+
+.con .about .get .buy a {
+  color: #fff;
+  display: inline-block;
+  width: 160px;
+  height: 50px; }
+
+.con .about .get .collect {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+  background: #fff; }
+
+.con .about .get .collect a {
+  color: #333;
+  display: inline-block;
+  width: 160px;
+  height: 50px;
+  border: 1px solid #ddd; }

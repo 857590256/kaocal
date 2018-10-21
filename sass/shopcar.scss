@@ -1,0 +1,235 @@
+header{
+    width: 1308px;
+    height: 100px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.header-top{
+    width: 1090px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.header-top .logo-img{
+    background: url(http://haitao.nos.netease.com/70dee793-133d-4628-b374-b99e29aad157.png?imageView&thumbnail=210x0&quality=85&v=1) no-repeat;
+    width: 330px;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+}
+
+// 搜索栏部分
+header #search{
+    width: 510px;
+    height: 40px;
+    padding-left: 1px;
+    background-color: #ff2337;
+    border-radius: 40px;
+    float: left; 
+    margin-top: 20px;
+    position: relative;
+}
+header #search .wrap{
+    width: 479px;
+    height: 36px;
+    float: left;
+    margin: 2px 1px;
+    padding: 6px 39px 6px 30px;
+    background-color: #fff;
+    border-radius: 24px 0 0 24px;
+}
+header #search .wrap input{
+    width: 410px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+header #search .but-box{
+    display: block;
+    width: 60px;
+    height: 40px;
+    background: #ff2337;
+    border-radius: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+   
+}
+header #search .but-box .but{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    background: url(https://haitao.nos.netease.com/6e4da089-9347-4dc2-be19-4962832a4a5c.png?imageView&thumbnail=20x0&quality=85&v=1) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    line-height: 40px;
+    text-align: center;
+    background-position: 14px 11px;
+}
+header #search .phone{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(https://mm.bst.126.net/images/index/icon1.png?832edc2…) no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    background-position: -466px -667px;
+}
+
+header #search .ep{
+    width: 461px;
+    height: 22px;
+    font-size: 12px;
+    margin: 2px 0 0 0;
+    float: left;
+}
+header #search .ep li{
+    float: left;
+    margin-left: 30px;
+
+}
+header #search .ep li .internal{
+    color: #ff1e32
+}
+header #search .ep li:hover a{
+    text-decoration: underline;
+}
+
+// 购物车
+header .shopcar{
+    width: 110px;
+    height: 40px;
+    background: #ff2337;
+    border-radius: 36px;
+    position: absolute;
+    right: 76px;
+    top: 20px;
+}
+header .shopcar a{
+    display: inline-block;
+    width: 106px;
+    height: 36px;
+    background: #fff;
+    border-radius: 36px;
+    line-height: 36px;
+    margin: 2px 1px 2px 2px;
+    text-align: center;
+}
+header .shopcar .img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://haitao.nos.netease.com/14f1eb69-f7c0-4d4f-95d8-4aee8e2e1f1b.png?imageView&thumbnail=20x0&quality=90) no-repeat;
+    margin-bottom: -4px;
+}
+header .shopcar .int{
+    font-size: 14px;
+    color: #333;
+}
+header .shopcar a:hover{
+    background: #fff4f5;
+}
+header .shopcar .num{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    background: pink;
+    border-radius: 50%;
+    right: 67px;
+    color: #ff3264;
+    z-index: 10;
+    top: 5px;
+    font-size: 12px;
+}
+ .goods-list{
+    width: 180px;
+    position: absolute;
+    top: 40px;
+    right:0px;
+}
+ .goods-list li{
+    width: 280px;
+    height: 60px;
+    background: #ddd;
+    border-bottom: 1px solid #999;}
+    .goods-list li img{
+        display: inline-block;
+          height: 60px;
+          float: left;
+          width: 40px;
+    }
+
+ .goods-list li   h3{
+        float: left;
+        line-height: 60px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+  .goods-list li  strong{
+        display: block;
+        float: left;
+        line-height: 60px;
+        padding: 0 5px;
+        font-size: 12px;
+        color: #fff;
+    }
+ .empty {
+        background: #eaa9bc;
+        width: 120px;
+        height: 120px;
+ }
+
+
+
+.content{
+    width: 1308px;
+    min-height: 132px;
+    background-color: #eaa9bc;
+    margin: 0 auto;
+}
+.content .top{
+    width: 1000px;
+    height: 132px;
+    margin: 0 auto;
+    background: url("https://haitao.nosdn2.127.net/xFHC1CHDyhL1IAmyPCm40It74R7HT18070101748_1920_132.jpg?imageView&thumbnail=1920x132&quality=95&type=webp") no-repeat;
+    background-position: center;
+}
+.content .inner{
+    width: 1120px;
+  margin: 0 auto;
+}
+.content .inner ul li{
+    width: 224px;
+    height: 405px;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 5px #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content .inner ul li h3{
+    line-height: 40px;
+      text-align: left;
+}
+.content .inner ul li img{
+    display: block;
+      width: 224px;
+      height: 340px;
+}
+.content .inner ul li button{
+    width: 100%;
+    
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #ddd;
+    background: yellowgreen;
+    color: #fff;
+}

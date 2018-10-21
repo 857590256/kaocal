@@ -360,6 +360,45 @@ header #shopcar .int {
 header #shopcar a:hover {
   background: #fff4f5; }
 
+header #shopcar .num {
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  background: pink;
+  border-radius: 50%;
+  right: 67px;
+  color: #ff3264;
+  z-index: 10;
+  top: 5px;
+  font-size: 12px; }
+
+header #shopcar .goods-list {
+  width: 180px;
+  position: absolute;
+  top: 40px; }
+
+header #shopcar .goods-list li {
+  width: 180px;
+  height: 60px;
+  background: #ddd;
+  border-bottom: 1px solid #999; }
+  header #shopcar .goods-list li img {
+    float: left;
+    width: 60px; }
+  header #shopcar .goods-list li h5 {
+    float: left;
+    line-height: 60px;
+    padding-left: 10px; }
+  header #shopcar .goods-list li strong {
+    display: block;
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    font-size: 12px; }
+
 header #nav {
   width: 1308px;
   height: 41px;
